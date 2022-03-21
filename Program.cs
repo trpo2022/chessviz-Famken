@@ -10,6 +10,18 @@ namespace chessviz_Famken
     {
         static void Main(string[] args)
         {
+            char[,] chessDesk = new char[,] {
+                { 'r', 'n', 'b', 'q', 'k', 'b', 'n', 'r' },
+                { 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p' },
+                { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+                { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+                { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+                { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+                { 'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P' },
+                { 'R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R' }}; //create a Chess Desk
+
+
+            
         }
     }
 }
