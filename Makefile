@@ -1,7 +1,12 @@
-all: main
-main: main.c
-	gcc -Wall -Werror -o main main.c
+.PHONY: test.cs
+
+all: run
+
+test.exe: Program.cs
+    @gmcs Program.cs 
+
 clean:
-	rm main
-run:
-	./main
+    @rm -f test.exe
+
+run: test.exe
+    @mono test.exe
